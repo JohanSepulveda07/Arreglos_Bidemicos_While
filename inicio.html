@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Promedio de Notas</title>
+    <link rel="stylesheet" href="arreglos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" href="Iconopromedionotas.ico">
+</head>
+<body>
+    <h1>Buscar Promedio de Notas</h1>
+
+    <form id="formulario-busqueda">
+        <label for="id-estudiante">Ingrese el ID del Estudiante:</label>
+        <input type="text" id="id-estudiante" required>
+        <button type="submit">Buscar</button>
+    </form>
+    <table id="tabla-resultados">
+        <thead>
+            <tr>
+                <th>Documento</th>
+                <th>Nombre</th>
+                <th>Carrera</th>
+                <th>Semestre</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Nota 4</th>
+                <th>Promedio</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="Datos.js"></script>
+</body>
+</html>
+
